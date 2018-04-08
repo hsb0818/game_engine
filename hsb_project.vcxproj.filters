@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{696a107e-fe7d-418c-8638-235590864c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{80c6a1cb-b72c-464a-9ba3-01ad5f073698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Thread">
+      <UniqueIdentifier>{4ceacf88-157b-4792-b27f-3e638814933a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Lock">
+      <UniqueIdentifier>{e926e4e1-5735-49ac-943e-d93a0d48ecea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{d1b792cb-7bd3-4f7d-b970-e9b403f20584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{730af630-f791-43cd-bc89-9a3ca84e6fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{c803694a-399e-43fc-910c-df3a74266608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct">
+      <UniqueIdentifier>{5c7dc126-851d-4ee7-a8e2-6e7c3f92e1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{449cfc6e-31e5-4a0f-bb18-13d2c9519045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{469b6903-5703-4f72-a58c-971826b84729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{714facb6-abc6-4540-8977-13999b1137c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevel_System">
+      <UniqueIdentifier>{28472564-6b97-4004-89cb-22404768dd09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Thread\thread.cpp">
+      <Filter>System\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Thread\thread_pool.cpp">
+      <Filter>System\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="System\converter.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\counter.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\object.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Lock\lock.cpp">
+      <Filter>System\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\slab.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\property.cpp">
+      <Filter>GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\log.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\profiler-mem.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\socGL.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SystemScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\profiler-graph.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="thread-routine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GInclude.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="instance_returner.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Thread\interface.h">
+      <Filter>System\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Thread\thread.h">
+      <Filter>System\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Thread\thread_pool.h">
+      <Filter>System\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="System\converter.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\counter.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\interface.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\object.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\queue.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\singleton.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\type.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Lock\define.h">
+      <Filter>System\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Lock\lock.h">
+      <Filter>System\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\interface.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\macro_define.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\mem-instance_returner.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\slab.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\pre-define.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="System\sys-instance_returner.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\property.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\interface.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct\hashtable.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct\interface.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\memory_pool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="System\config.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\log.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\profiler.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\interface.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\profiler-mem.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\socGL.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\interface.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\instance_returner.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SystemScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\interface.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\interface-highlevel.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="HighLevel_System\instance_returner.h">
+      <Filter>HighLevel_System</Filter>
+    </ClInclude>
+    <ClInclude Include="HighLevel_System\interface.h">
+      <Filter>HighLevel_System</Filter>
+    </ClInclude>
+    <ClInclude Include="HighLevel_System\scene.h">
+      <Filter>HighLevel_System</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\socfont.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\profiler-graph.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\socGL-define.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="thread-routine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hsb_project.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
